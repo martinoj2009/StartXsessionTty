@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 # This will prompt for the desktop type and launch the desktop of your choice in the TTY
 
@@ -26,7 +26,7 @@ print('Enter the number for the desktop you wish to use:\n')
 
 INDEX = 0
 for desktop in DESKTOPS:
-    print('[' + str(INDEX) + ']' + ' ' +str(desktop).replace('.desktop',''))
+    print('[' + str(INDEX) + ']' + ' ' + str(desktop).replace('.desktop', ''))
     INDEX = INDEX+1
 
 # Get the desktop selected by the user
